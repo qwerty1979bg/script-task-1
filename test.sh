@@ -16,5 +16,5 @@ echo "'Hello' script is good"
 ./nginx.sh
 
 #check if the nginx has been sucessfully installed
-wcich nginx && echo "nginx IS installed" || (echo "nginx is NOT installed" && exit 1)
+which nginx && echo "nginx IS installed" || (echo "nginx is NOT installed" && exit 1)
 exit 0
