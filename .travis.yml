@@ -1,4 +1,5 @@
 language: python
 sudo: required
+install: ./install.sh
 script:
 - bash -x test.sh
